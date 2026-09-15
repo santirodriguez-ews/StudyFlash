@@ -8,8 +8,10 @@ export const serverRoutes: ServerRoute[] = [
     path: 'study/:slug',
     renderMode: RenderMode.Prerender,
     async getPrerenderParams() {
-      const topics$ = inject(CoreService).getTopics()
-      const topics = await lastValueFrom(topics$)
+      const coreService = inject(CoreService)
+      
+      const topics = await lastValueFrom(coreService.getTopics())
+
       return topics.map(({ slug }) => ({ slug }))
     },
   },
