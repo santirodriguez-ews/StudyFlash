@@ -18,6 +18,7 @@ import {
   NATURAL_DISASTERS,
   MENTAL_HEALTH_ITEMS,
   BRAND_PROTECTION,
+  DEALING_WITH_DIFFICULT_DECISIONS,
 } from './vocabulary-items'
 import { PERSONALITY_AND_RELATIONSHIPS } from './vocabulary-items'
 
@@ -211,6 +212,16 @@ export const INITIAL_TOPICS: Topic[] = [
     level: 'B1',
     tags: ['business', 'law', 'intellectual-property'],
     items: BRAND_PROTECTION,
+  },
+  {
+    id: '20',
+    name: 'Dealing with difficult decisions',
+    emoji: '🧭',
+    description: 'English vocabulary for workplace changes, difficult decisions, and employee concerns.',
+    slug: 'dealing-with-difficult-decisions',
+    level: 'Intermediate',
+    tags: ['Workplace English', 'Business English', 'Decision-Making'],
+    items: DEALING_WITH_DIFFICULT_DECISIONS,
   },
 ]
 

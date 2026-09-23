@@ -3629,3 +3629,162 @@ export const BRAND_PROTECTION: VocabularyItem[] = [
     notes: 'Often contains conditions that are easy to overlook.',
   },
 ]
+
+export const DEALING_WITH_DIFFICULT_DECISIONS: VocabularyItem[] = [
+  {
+    id: 'vocabulary-101',
+    topicId: '11',
+    term: 'Catch up on',
+    translation: 'Ponerse al día con',
+    definition: 'To do something that should have been done earlier.',
+    examples: [
+      'I need to catch up on several projects after my vacation.',
+      'She is catching up on emails from last week.',
+      'The team caught up on its work before the deadline.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-102',
+    topicId: '11',
+    term: 'Budget cuts',
+    translation: 'Recortes presupuestarios',
+    definition: 'Reductions in the amount of money available for spending.',
+    examples: [
+      'The company announced budget cuts across all departments.',
+      'Budget cuts have affected training and travel expenses.',
+      'The project was delayed because of budget cuts.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-103',
+    topicId: '11',
+    term: 'Layoffs',
+    translation: 'Despidos',
+    definition: 'The dismissal of employees because their jobs are no longer needed.',
+    examples: [
+      'The company announced layoffs after a difficult financial quarter.',
+      'Several employees were worried about possible layoffs.',
+      'The layoffs affected hundreds of workers.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-104',
+    topicId: '11',
+    term: 'Reduction of headcount',
+    translation: 'Reducción de personal',
+    definition: 'A decrease in the number of employees working for an organization.',
+    examples: [
+      'The reduction of headcount will affect several regional offices.',
+      'Management is planning a reduction of headcount next year.',
+      'The company reduced its headcount without closing any offices.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-105',
+    topicId: '11',
+    term: 'Higher workload',
+    translation: 'Mayor carga de trabajo',
+    definition: 'An increase in the amount of work that someone must complete.',
+    examples: [
+      'The team has faced a higher workload since two colleagues left.',
+      'A higher workload can reduce productivity and morale.',
+      'Employees are requesting support because their workload has increased.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-106',
+    topicId: '11',
+    term: 'Burnout',
+    translation: 'Agotamiento laboral',
+    definition: 'Extreme physical or emotional exhaustion caused by prolonged stress.',
+    examples: [
+      'He took time off work to recover from burnout.',
+      'Long hours and constant pressure can lead to burnout.',
+      'The company introduced flexible schedules to prevent employee burnout.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-107',
+    topicId: '11',
+    term: 'Tax increase',
+    translation: 'Aumento de impuestos',
+    definition: 'A rise in the amount of tax that people or businesses must pay.',
+    examples: [
+      'The tax increase will affect small businesses the most.',
+      'Many employees are concerned about the proposed tax increase.',
+      'The government approved a tax increase last month.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-108',
+    topicId: '11',
+    term: 'Promotion and salary freeze',
+    translation: 'Congelación de ascensos y salarios',
+    definition: 'A temporary decision not to increase salaries or promote employees.',
+    examples: [
+      'The promotion and salary freeze has lowered employee motivation.',
+      'Management introduced a promotion and salary freeze during the crisis.',
+      'The company lifted the salary freeze after its profits improved.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-109',
+    topicId: '11',
+    term: 'Resignations',
+    translation: 'Renuncias',
+    definition: 'Formal decisions by employees to leave their jobs.',
+    examples: [
+      'The department has seen several resignations this month.',
+      'A series of resignations created leadership problems.',
+      'Her resignation surprised everyone on the team.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-110',
+    topicId: '11',
+    term: 'Leaving the company',
+    translation: 'Dejar la empresa',
+    definition: 'The act of ending employment with an organization.',
+    examples: [
+      'He is leaving the company at the end of the month.',
+      'Leaving the company was a difficult but necessary decision.',
+      'She announced that she was leaving the company to pursue a new opportunity.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-111',
+    topicId: '11',
+    term: 'Lack of motivation',
+    translation: 'Falta de motivación',
+    definition: 'A reduced desire or willingness to work toward a goal.',
+    examples: [
+      'The lack of motivation became clear after the salary freeze.',
+      'He has experienced a lack of motivation since the restructuring began.',
+      'Regular feedback can help employees overcome a lack of motivation.'
+    ],
+    notes: ''
+  },
+  {
+    id: 'vocabulary-112',
+    topicId: '11',
+    term: 'Lack of morale',
+    translation: 'Falta de moral',
+    definition: 'A low level of confidence, enthusiasm, and satisfaction within a group.',
+    examples: [
+      'The layoffs caused a serious lack of morale in the office.',
+      'Managers held meetings to address the lack of morale.',
+      'A lack of morale can make it difficult to retain talented employees.'
+    ],
+    notes: ''
+  }
+];
